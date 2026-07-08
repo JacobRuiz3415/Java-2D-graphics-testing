@@ -1,9 +1,9 @@
 import javax.swing.JFrame;
 
-public class Main {
+public class main {
     public static void main(String[] args) {
         JFrame frame = new JFrame();
-        frame.setSize(150, 250);
+        frame.setSize(350, 250);
         frame.setTitle("testing");
 
         testingShapeComponent component = new testingShapeComponent();
