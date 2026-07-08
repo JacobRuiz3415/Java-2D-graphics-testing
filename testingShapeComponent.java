@@ -11,6 +11,7 @@ public class testingShapeComponent extends JComponent {
         g2d.setPaint(Color.BLUE);
         Rectangle r = new Rectangle(10, 10, 100, 100);
         g2d.draw(r);
+        g2d.fill(r);
 
     }
 }
