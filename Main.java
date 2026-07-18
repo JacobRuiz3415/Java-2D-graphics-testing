@@ -6,7 +6,7 @@ public class main {
     public static void main(String[] args) {
         JFrame frame = new JFrame();
         frame.setSize(350, 250);
-        frame.setTitle("testing");
+        frame.setTitle("my frame");
 
         URL iconURL = main.class.getResource("/high-angle-shot-banana-isolated-white-surface.jpg");
         if (iconURL != null){
@@ -15,8 +15,8 @@ public class main {
         }
         //testingShapeComponent component = new testingShapeComponent();
         smileFace smile = new smileFace();
-        frame.add(component);
-
+        //frame.add(component);
+        frame.add(smile);
         frame.setVisible(true);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         
