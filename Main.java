@@ -5,8 +5,8 @@ import javax.swing.JFrame;
 public class main {
     public static void main(String[] args) {
         JFrame frame = new JFrame();
-        frame.setSize(350, 250);
-        frame.setTitle("my frame");
+        frame.setSize(400, 400);
+        frame.setTitle("My Frame");
 
         URL iconURL = main.class.getResource("/high-angle-shot-banana-isolated-white-surface.jpg");
         if (iconURL != null){
