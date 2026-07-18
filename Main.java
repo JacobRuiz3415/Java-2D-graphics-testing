@@ -13,7 +13,8 @@ public class main {
             ImageIcon icon = new ImageIcon(iconURL);
             frame.setIconImage(icon.getImage());
         }
-        testingShapeComponent component = new testingShapeComponent();
+        //testingShapeComponent component = new testingShapeComponent();
+        smileFace smile = new smileFace();
         frame.add(component);
 
         frame.setVisible(true);
