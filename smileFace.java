@@ -2,9 +2,9 @@ import java.awt.*;
 import javax.swing.*;
 
 public class smileFace extends JComponent {
-    protected  void  smileComponent(Graphics g){
-        Graphics2D g2d = (Graphics2D) g;
-
+    public   void paint(Graphics g){
+        //Graphics2D g2d = (Graphics2D) g;
+        super.paint(g);
         g.setColor(new Color(255,255,255));
         g.fillOval(150, 150, 100, 100);
 
