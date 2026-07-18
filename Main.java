@@ -16,9 +16,10 @@ public class main {
         //testingShapeComponent component = new testingShapeComponent();
         smileFace smile = new smileFace();
         //frame.add(component);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.add(smile);
         frame.setVisible(true);
-        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        
         
     }
 }
